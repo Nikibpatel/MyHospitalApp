@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardMaxElevation="20dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="20dp">
+
+    <FrameLayout
+        android:layout_width="352dp"
+        android:layout_height="479dp">
+
+        <ImageView
+            android:id="@+id/p_n_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.6"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/ed_h_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email id"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <!--<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_n_Old_password"
+            android:hint="Enter New Password"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed_n_new_password"
+            android:hint="Enter new Password"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/btn_n_profile_Update"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Update"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
